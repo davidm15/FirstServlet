@@ -1,0 +1,25 @@
+body {
+	color: white;
+	font-family: "Calibri";
+	background-image: url("http://wallpapercave.com/wp/m0byqVF.jpg");
+	text-align: center;
+}
+
+.entryTable {
+	border-style: solid;
+    border-width: 1px;
+    border-spacing: 50px 10px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.2);
+    background-radius: 8px;
+    box-shadow: 1px 1px 0px #FFFFFF;
+}
+
+.box_pos {
+
+	position: absolute;
+  	top: 20%;
+  	left: 50%;
+  	transform: translateY(-20%);
+  	transform: translateX(-50%);
+}

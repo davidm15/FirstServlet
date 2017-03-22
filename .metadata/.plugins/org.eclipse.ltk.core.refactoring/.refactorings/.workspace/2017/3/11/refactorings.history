@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Planetbook/WebContent/WEB-INF/style&apos;" deleteContents="false" description="Delete resource &apos;Planetbook/WebContent/WEB-INF/style&apos;" element1="/Planetbook/WebContent/WEB-INF/style" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1489936710625"/>
+</session>

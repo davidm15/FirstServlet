@@ -1,0 +1,22 @@
+package model;
+
+public class GuestBookModel {
+	private String user;
+	private String headline;
+	private String text;
+	
+	public void clear() {
+	}
+ 
+	public void add(GuestBookModel model) {
+	}
+ 
+	public boolean isEmpty() {
+	}
+ 
+	public List<GuestBookModel> getGuestBookEntries() {
+	}
+ 
+	public int getSize() {
+	}
+}

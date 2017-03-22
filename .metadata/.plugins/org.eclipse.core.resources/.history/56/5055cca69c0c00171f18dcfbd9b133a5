@@ -1,0 +1,10 @@
+package model;
+
+public class PlanetBookModel {
+
+	private String name;
+	private String surface;
+	private float size;
+	
+	
+}

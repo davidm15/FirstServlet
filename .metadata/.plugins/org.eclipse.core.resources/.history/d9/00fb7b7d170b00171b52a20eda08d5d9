@@ -1,0 +1,43 @@
+package model;
+
+public class GuestBookModel {
+	
+	public GuestBookModel() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public GuestBookModel(String user, String headline, String text) {
+		super();
+		this.user = user;
+		this.headline = headline;
+		this.text = text;
+	}
+
+
+
+	private String user;
+	private String headline;
+	private String text;
+	
+	public String getUser() {
+		return user;
+	}
+	public void setUser(String user) {
+		this.user = user;
+	}
+	public String getHeadline() {
+		return headline;
+	}
+	public void setHeadline(String headline) {
+		this.headline = headline;
+	}
+	public String getText() {
+		return text;
+	}
+	public void setText(String text) {
+		this.text = text;
+	}
+	
+	
+
+}

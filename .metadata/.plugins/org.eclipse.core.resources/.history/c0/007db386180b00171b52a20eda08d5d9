@@ -1,0 +1,31 @@
+package model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class GuestBookManager {
+
+	List<GuestBookModel> gb = new ArrayList<>();
+	
+	
+	public void clear() {
+		gb.clear();
+	}
+ 
+	public void add(GuestBookModel model) {
+		gb.add(model);
+	}
+ 
+	public boolean isEmpty() {
+		gb.isEmpty();
+	}
+ 
+	public List<GuestBookModel> getGuestBookEntries() {
+		return new ArrayList(gb);
+	}
+ 
+	public int getSize() {
+		return gb.size();
+	}
+	
+}

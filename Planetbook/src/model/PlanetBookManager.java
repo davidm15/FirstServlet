@@ -1,0 +1,50 @@
+package model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PlanetBookManager {
+
+	List<PlanetBookModel> pb = new ArrayList<PlanetBookModel>();
+	
+	public void clear() {
+		pb.clear();
+	}
+ 
+	public void add(PlanetBookModel model) {
+		pb.add(model);
+	}
+ 
+	public boolean isEmpty() {
+		return pb.isEmpty();
+	}
+ 
+	public List<PlanetBookModel> getPlanetBookEntries() {
+		return new ArrayList<PlanetBookModel>(pb);
+	}
+ 
+	public int getSize() {
+		return pb.size();
+	}
+	
+	public float getSum() {
+		float sum = 0;
+		for(int i=0; i<getSize(); i++){
+            PlanetBookModel planet = pb.get(i);
+            sum += planet.getSize();
+		}
+		return sum;
+	}
+	
+	public float getAverage() {
+		int amount = 0;
+		float sum = 0;
+		for(int i=0; i<getSize(); i++){
+            PlanetBookModel planet = pb.get(i);
+            amount += 1;
+            sum += planet.getSize();
+		}
+		return sum/amount;
+	}
+	
+}
